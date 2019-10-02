@@ -94,11 +94,10 @@ app.delete("/blogs/:id",function(req,res){
 });
 
 app.listen(process.env.PORT,process.env.IP,function(){
-    console.log("BLOG APP has started !!!");
+    console.log(`BLOG APP has started on ${PORT} with ${IP}`);
 });
 
 var blogSchema=new mongoose.Schema({
-
  title:String,
  image:String,
  body:String,
