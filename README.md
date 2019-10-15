@@ -10,3 +10,5 @@ It uses Various Technologies like: `nodejs`, `mongoDB`,`mongoose`, `express`, `h
   <li>Switch to the project directory using <code>cd</code> command.</li>
   <li>Then run the following command : <span><code>node app.js</code></span></li>
 </ul>
+
+This blog site is awesome man!!!!
