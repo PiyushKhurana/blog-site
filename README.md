@@ -8,5 +8,6 @@ It uses Various Technologies like: `nodejs`, `mongoDB`,`mongoose`, `express`, `h
 <li>Make sure you have <code>node</code> installed.</li>
 <li>Open terminal or command prompt. </li>
   <li>Switch to the project directory using <code>cd</code> command.</li>
-  <li>Then run the following command : <span><code>node app.js</code></span></li>
+  <li>Install dependencies using <span><code>npm install </code></span></li>
+  <li>Then start the server with : <span><code>node app.js</code></span></li>
 </ul>
