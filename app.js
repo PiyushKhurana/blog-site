@@ -4,6 +4,7 @@ mongoose     = require("mongoose"),
 app          = express(), 
 methodOverride=require("method-override");
 
+const port=process.env.PORT||8000;
 
 mongoose.connect("mongodb://localhost/restful_app_blog");
 app.set("view engine","ejs");
@@ -93,8 +94,8 @@ app.delete("/blogs/:id",function(req,res){
     })
 });
 
-app.listen(process.env.PORT,process.env.IP,function(){
-    console.log("BLOG APP has started !!!");
+app.listen(port,function(){
+    console.log(`BLOG APP has started at server ${port}!!!`);
 });
 
 var blogSchema=new mongoose.Schema({
