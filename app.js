@@ -1,8 +1,8 @@
 var express  = require("express"),
-bodyParser   = require("body-parser"),
-mongoose     = require("mongoose"),
-app          = express(), 
-methodOverride=require("method-override");
+var bodyParser   = require("body-parser"),
+var mongoose     = require("mongoose"),
+var app          = express(), 
+var methodOverride=require("method-override");
 
 
 mongoose.connect("mongodb://localhost/restful_app_blog");
