@@ -11,3 +11,5 @@ It uses Various Technologies like: `nodejs`, `mongoDB`,`mongoose`, `express`, `h
   <li>Install dependencies using <span><code>npm install </code></span></li>
   <li>Then start the server with : <span><code>node app.js</code></span></li>
 </ul>
+
+### For Hacktober Fest from Arnav with love. XD
