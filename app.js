@@ -4,6 +4,7 @@ mongoose     = require("mongoose"),
 app          = express(), 
 methodOverride=require("method-override");
 
+const port = process.env.PORT || 80;
 
 mongoose.connect("mongodb://localhost/restful_app_blog");
 app.set("view engine","ejs");
